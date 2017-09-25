@@ -1,0 +1,80 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body {
+    background-color: rgb(50,50,50);
+}
+
+#instruct {
+    color: rgb(255,255,255);
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2.4em;
+    font-weight: 400;
+    position: absolute;
+    min-width: 100%;
+    min-height: 20%;
+}
+
+#container {
+   border-top: 2px solid rgba(0,0,0,0.5);
+   border-bottom: 2px solid rgb(0,0,0,0.5);
+   position: absolute;
+   background-color: rgb(230,230,230);
+   min-width: 100%;
+   min-height: 70%;
+   top: 20%;
+}
+
+#colorbox {
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    position: absolute;
+    left: 15%;
+    top: 12%;
+    min-width: 40%;
+    min-height: 40%;
+    background-color: rgb(255,255,255);
+}
+
+#colorcode {
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 4px; 
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2.8em;
+    font-weight: 400;
+    position: absolute;
+    left: 15%;
+    top: 57%;
+    min-width: 70%;
+    min-height: 30%;
+    background-color: rgb(255,255,255);
+    text-transform: uppercase;
+}
+
+#button {
+    cursor: default;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 3.2em;
+    font-weight: 400;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    min-width: 20%;
+    min-height: 14%;
+    background-color: #FFF;
+}
+
+::selection {
+    background-color: rgb(255,255,255);    
+}
