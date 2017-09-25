@@ -1,1 +1,1 @@
-# Compass
+# ColorGenerator
